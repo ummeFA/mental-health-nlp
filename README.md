@@ -67,6 +67,7 @@ Input: "I feel lost and hopeless"
 ---
 
 ## 📁 Project Structure
+
 ├── app.py
 ├── logistic_model.pkl
 ├── tfidf_vectorizer.pkl
