@@ -38,9 +38,18 @@ if st.button("Analyze"):
         labels = model.classes_
 
         df_probs = pd.DataFrame({'label': labels, 'probability': probs})
-        fig, ax = plt.subplots()
-        ax.pie(df_probs['probability'], labels=df_probs['label'], autopct='%1.1f%%', startangle=90)
-        ax.axis('equal')  # Equal aspect ratio for circle
+        fig, ax = plt.subplots(figsize=(8, 5))
+        bars = ax.barh(df_probs['label'], df_probs['probability'], color='skyblue')
+        ax.set_xlabel("Prediction Probability")
+        ax.set_xlim(0, 1)
+        ax.set_title("Prediction Confidence by Class")
 
-        st.markdown("#### Prediction Confidence")
+        # Add % labels next to bars
+        for bar in bars:
+            width = bar.get_width()
+            ax.text(width + 0.01, bar.get_y() + bar.get_height()/2,
+                    f"{width:.2%}", va='center')
+
+        st.markdown("#### Prediction Confidence (Bar Chart)")
         st.pyplot(fig)
+
