@@ -1,6 +1,6 @@
 # 🧠 Mental Health Text Classifier
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-username.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mental-health-nlp-rijmcyaeksukfmbzce8xc3.streamlit.app/)
 
 This Streamlit app uses a machine learning model to classify mental health statuses like **Depression**, **Anxiety**, **Suicidal**, and more based on text input. It's trained on a diverse dataset of social media posts and mental health records.
 
@@ -8,7 +8,7 @@ This Streamlit app uses a machine learning model to classify mental health statu
 
 ## 🚀 Try it Live
 
-👉 [Click to open the live app](https://your-username.streamlit.app)
+👉 [Click to open the live app](https://mental-health-nlp-rijmcyaeksukfmbzce8xc3.streamlit.app/)
 
 ---
 
@@ -51,7 +51,7 @@ Input: "I feel lost and hopeless"
 1. Cleans the input text (lowercase, punctuation removal)
 2. Transforms it using a pre-trained TF-IDF vectorizer
 3. Predicts mental health label using Logistic Regression
-4. Displays prediction + pie chart of confidence
+4. Displays prediction + bar chart of confidence
 
 ---
 
