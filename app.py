@@ -33,7 +33,7 @@ if st.button("Analyze"):
         # predicted label
         st.success(f" Predicted Mental Health Status: **{prediction}**")
 
-        # Pie chart of prediction probabilities
+        # Bar chart of prediction probabilities
         probs = model.predict_proba(vectorized)[0]
         labels = model.classes_
 
