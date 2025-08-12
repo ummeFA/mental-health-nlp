@@ -1,4 +1,4 @@
-# 🧠 Mental Health Text Classifier
+#  Mental Health Text Classifier
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mental-health-nlp-rijmcyaeksukfmbzce8xc3.streamlit.app/)
 
@@ -6,13 +6,13 @@ This Streamlit app uses a machine learning model to classify mental health statu
 
 ---
 
-## 🚀 Try it Live
+##  Try it Live
 
-👉 [Click to open the live app](https://mental-health-nlp-rijmcyaeksukfmbzce8xc3.streamlit.app/)
+ [Click to open the live app](https://mental-health-nlp-rijmcyaeksukfmbzce8xc3.streamlit.app/)
 
 ---
 
-## 🔍 Features
+##  Features
 
 - Input any mental health-related sentence
 - Get real-time classification results
@@ -21,7 +21,7 @@ This Streamlit app uses a machine learning model to classify mental health statu
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 - **Model:** Logistic Regression (with class weights)
 - **Vectorizer:** TF-IDF (5000 top features)
@@ -36,7 +36,7 @@ This Streamlit app uses a machine learning model to classify mental health statu
 
 ---
 
-## 🖼 Example
+##  Example
 
 Input: "I feel lost and hopeless"
 → Output: Depression
@@ -55,7 +55,7 @@ Input: "I feel lost and hopeless"
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - Python
 - Streamlit
@@ -66,7 +66,7 @@ Input: "I feel lost and hopeless"
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ├── app.py
 ├── logistic_model.pkl
@@ -79,7 +79,7 @@ Input: "I feel lost and hopeless"
 
 ---
 
-## ✨ Future Enhancements
+##  Future Enhancements
 
 - Adding model options (Random Forest, SVM, etc.)
 - Integrating multi-label classification
@@ -88,7 +88,7 @@ Input: "I feel lost and hopeless"
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Umme Fatema  
 Machine Learning Enthusiast
